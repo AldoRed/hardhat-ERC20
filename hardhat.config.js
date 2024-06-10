@@ -38,7 +38,16 @@ module.exports = {
     etherscan: {
         apiKey: ETHERSCAN_API_KEY,
     },
-    solidity: "0.8.7",
+    solidity: {
+        compilers: [
+          {
+            version: "0.8.7",
+          },
+          {
+            version: "0.8.20",
+          },
+        ],
+    },
     gasReporter: {
         enabled: false,
         outputFile: "gas-report.txt",
