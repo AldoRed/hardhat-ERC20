@@ -24,7 +24,7 @@ const developmentChains = ["hardhat", "localhost"]
 const DECIMALS = "8"
 const INITIAL_PRICE = "300000000000" // 3000
 
-const INITIAL_SUPPLY = "7"
+const INITIAL_SUPPLY = "100"
 
 module.exports = {
     networkConfig,
